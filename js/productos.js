@@ -2,7 +2,7 @@
 // C = CREATE
 // R = READ
 // U = UPDATE
-// D = DELETESS
+// D = DELETE
 
 function ObtenerProductos() {
     const productos = localStorage.getItem("productosv2")
