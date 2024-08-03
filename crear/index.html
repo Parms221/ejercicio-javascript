@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/global.css" />
+        <!-- <link rel="stylesheet" href="index.css" /> -->
+        <link rel="stylesheet" href="/css/table.css" />
+
+        <title>Taller Javascript</title>
+    </head>
+    <body>
+        <header>
+            <div class="container header-container">
+                <h1>Taller de Javascript</h1>
+                <p><b>Github:</b> Parms221</p>
+            </div>
+        </header>
+        <main class="container">
+            <section>
+                <h2>Crear producto productos</h2>
+
+                <form action="#" id="form-producto">
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" />
+                    </div>
+                    <div>
+                        <label for="marca">Marca:</label>
+                        <input type="text" id="marca" name="marca" />
+                    </div>
+                    <div>
+                        <label for="precio">Precio (S./):</label>
+                        <input type="number" id="precio" name="precio" min="0" />
+                    </div>
+
+                    <button type="submit">
+                        Enviar
+                    </button>
+
+                </form>
+            </section>
+        </main>
+    </body>
+    <script src="/js/productos.js"></script>
+    <script src="/crear/crear.js"></script>
+</html>
